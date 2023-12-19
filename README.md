@@ -3,5 +3,83 @@ var myName="Josh Claros";
 let camper ="Josh";
 //variables under let will only be used once unlike var
 let catName= "Oliver";
-let catSound= "Meow!";t
+let catSound= "Meow!";
 yup commit here
+/*An error will be displayed when there is an attempt to change the const variable*/
+const Fav_PET = "Cats"; 
+FAV_PET +"Dogs";
+/*Declare a Read-Only Variable with the const Keyword; You should always name variables you don't want to reassign using the const keyword. Especially when attempting to reassign a variable that is meant to stay constant*/
+//Note: It is common for developers to use uppercase variable identifiers for immutable values and lowercase or camelCase for mutable values (objects and arrays). 
+const FCC = "freeCodeCamp"; // Change this line, FCC was fCC, const was var
+let fact = "is cool!"; // Change this line, let was var 
+fact = "is awesome!";
+console.log(FCC, fact); // Change this line, FCC was fCC ( of course due to const retaining immutable values 14mins)
+
+/*Add Two Numbers with JavaScript; Number is a data type in JavaScript which represents numeric data.Use the + symbol as an addition operator (assingment operator presumably?) when placed between two num*/
+const myVar = 5+10; 
+//myVar now has the value 15.
+/*Subtract One Number from Another with JavaScript*/ 
+const myVar = 12-6; 
+//myVar would have the value 6.
+//Multiply Two Numbers with JavaScript (*)
+const myVar = 13*13; 
+//myVar would have the value 169.
+//Divide One Number by Another with JavaScript (/)
+const myVar = 16 / 2;
+//myVar now has the value 8.
+
+//Increment a Number with JavaScript (++) operator
+i++;
+//equivalent to 
+i = i + 1;
+//another ex 
+myVar= mmyVar + 1;
+myVar++
+//Note: The entire line becomes i++;(1st example) eliminating the need for the equal sign.
+//Decrement a Number with JavaScript (--) operator 
+i--;
+//equivalent to 
+i = i - 1;
+//another ex 
+myVar = myVar - 1;
+myVar--;
+//Note: The entire line becomes i--(1st example), eliminating the need for the equal sign.
+
+//Create Decimal Numbers with JavaScript (floats, floating point numbers )
+//If results are not desired due to precision made with decimals, go to freeCodeCamp forum
+var myDecimal = 5.7;
+//Multiply Two Decimals with JavaScript
+const product = 2.0 * 2.5;
+//The product now equals 5
+//Divide One Decimal by Another with JavaScript
+const quotient = 4.4/2.0; 
+//The quotient now equals 2.2
+
+//Finding a Remainder in JavaScript
+/*In mathematics, a number can be checked to be even or odd by checking the remainder of the division of the number by 2. Even numbers have a remainder of 0, while odd numbers a remainder of 1. Ex:*/
+17 % 2 = 1;
+48 % 2 = 0;
+const remainder = 11%3;
+/*Note: The remainder operator is sometimes incorrectly referred to as the modulus operator. It is very similar to modulus, but does not work properly with negative numbers.*/
+
+/*Compound Assignment With Augmented Addition (Right of the = sign is evaluated first with modified variable) */
+myVar = myVar + 5;
+//there are operators which do both a mathematical operation and assignment in one step ( += operator) 
+let myVar = 1;
+myVar += 5;
+console.log(myVar);
+//6 would be displayed in the console. ex below
+let a = 3;
+let b = 17;
+let c = 12;
+// Only change code below this line
+a = a + 12;
+b = 9 + b;
+c = c + 7;
+//My solution 
+a += 12;
+b += 9;
+c += 7;
+
+//Compound Assignment With Augmented Subtraction (-=)
+//Like the += operator, -= subtracts a number from a variable.
