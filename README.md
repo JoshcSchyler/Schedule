@@ -83,3 +83,78 @@ c += 7;
 
 //Compound Assignment With Augmented Subtraction (-=)
 //Like the += operator, -= subtracts a number from a variable.
+myVar = myVar - 5;
+//will subtract 5 from myVar. This can be rewritten as:
+myVar -= 5;
+//examples below
+let a = 11;
+let b = 9;
+let c = 3;
+// Only change code below this line
+a = a - 6;
+b = b - 15;
+c = c - 1;
+//My solution
+a -= 6;
+b -= 15;
+c -= 1;
+
+//Compound Assignment With Augmented Multiplication (*=)
+//The *= operator multiplies a variable by a number.
+myVar = myVar * 5;
+//will multiply myVar by 5. This can be rewritten as:
+myVar *= 5;
+//examples below
+let a = 5;
+let b = 12;
+let c = 4.6;
+// Only change code below this line
+a = a * 5;
+b = 3 * b;
+c = c * 10;
+//My solution 
+a *= 5;
+b *= 3;
+c *= 10;
+
+//Compound Assignment With Augmented Division
+//The /= operator divides a variable by another number.
+myVar = myVar / 5;
+//Will divide myVar by 5. This can be rewritten as:
+myVar /= 5;
+//Examples below
+let a = 48;
+let b = 108;
+let c = 33;
+
+// Only change code below this line
+a = a / 12;
+b = b / 4;
+c = c / 11;
+//My solution 
+a /= 12;
+b /= 4;
+c /= 11;
+
+//Escaping Literal Quotes in Strings (\) Interesting but strict 
+//When you wanna quote in quotes you (\) it'll consider it end of string quote 
+const sampleStr = "Alan said, \"Peter is learning JavaScript\".";
+/*This signals to JavaScript that the following quote is not the end of the string, but should instead appear inside the string. So if you were to print this to the console, you would get:*/
+//Alan said, "Peter is learning JavaScript".
+//Another example 
+const myStr = "I am a \"double quoted\" string inside \"double quotes\"."; // Change this line
+//I am a "double quoted" string inside "double quotes".
+//Seemingly the plan is to stop the double quotes from pairing with one another with a backslash \, also 4 \ and 2 sets of "" were used above 
+
+//Quoting Strings with Single Quotes
+//Start and end with the same ' or " you started with
+const doubleQuoteStr = "This is a string"; 
+const singleQuoteStr = 'This is also a string';
+//Example const conversation = 'Finn exclaims to Jake, "Algebraic!"';
+/*However, this becomes a problem if you need to use the outermost quotes within it. Remember, a string has the same kind of quote at the beginning and end. But if you have that same quote somewhere in the middle, the string will stop early and throw an error.*/
+const goodStr = 'Jake asks Finn, "Hey, let\'s go on an adventure?"'; 
+const badStr = 'Finn responds, "Let's go!"';
+//badStr will throw an error.
+//In the goodStr above, you can use both quotes safely by using the backslash \ as an escape character. Also / is not the same as a \, also <a> tag exists
+const myStr = "<a href=\"http://www.example.com\" target=\"_blank\">Link</a>";
+const myStr = '<a href="http://www.example.com" target="_blank">Link</a>'; 
