@@ -159,7 +159,7 @@ const badStr = 'Finn responds, "Let's go!"';
 const myStr = "<a href=\"http://www.example.com\" target=\"_blank\">Link</a>";
 const myStr = '<a href="http://www.example.com" target="_blank">Link</a>'; 
 
-//Escape Sequences in Strings
+//Escape Sequences in Strings (list below)
 Code	Output
 \'	single quote
 \"	double quote
@@ -173,9 +173,41 @@ Code	Output
 const myStr="FirstLine\n\t\\SecondLine\nThirdLine";
 //Double backslashes \\ not // as well as tight no spacing makes escaping doable 21mins
 
-//Concatenating Strings with Plus Operator
+//Concatenating Strings with Plus Operator (""+"")
 'My name is Alan,' + ' I concatenate.'
 /*Note: Watch out for spaces. Concatenation does not add spaces between concatenated strings, so you'll need to add them yourself.*/
 const ourStr = "I come first. " + "I come second.";
 //The string (I come first. I come second.) would be displayed in the console.Ex below
 const myStr = "This is the start."+" This is the end."; // 
+
+//Concatenating Strings with the Plus Equals Operator
+//By linking together strings, with += you split it into lines removing exagerrated verboaseness (Watch out for space)
+let ourStr = "I come first. ";
+ourStr += "I come second.";
+//ourStr now has a value of the string I come first. I come second..
+let myStr= "This is the first sentence. ";
+myStr+= "This is the second sentence."
+
+//Constructing Strings with Variables (+myVar, etc)
+const myName = "Josh Claros";
+const myStr = "My name is"+myName+"and I am well!";
+
+//Appending Variables to Strings (+=)
+const anAdjective = "awesome!";
+let ourStr = "freeCodeCamp is ";
+ourStr += anAdjective;
+//ourStr would have the value (freeCodeCamp is awesome!.)  The power of Appending Order of varibales matter too.
+const someAdjective = "gorgeous";
+let myStr = "Learning to code is ";
+myStr+=someAdjective;
+
+//Find the Length of a String (=blahblah.length;)
+//You can find the length of a String value by writing .length after the string variable or string literal.
+console.log("Alan Peter".length);
+// Setup ------
+let lastNameLength = 0;
+const lastName = "Lovelace";
+// Only change code below this line
+lastNameLength = lastName.length;
+/*For example, if we created a variable const firstName = "Ada", we could find out how long the string Ada is by using the firstName.length property.*/
+
