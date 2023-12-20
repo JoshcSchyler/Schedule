@@ -158,3 +158,24 @@ const badStr = 'Finn responds, "Let's go!"';
 //In the goodStr above, you can use both quotes safely by using the backslash \ as an escape character. Also / is not the same as a \, also <a> tag exists
 const myStr = "<a href=\"http://www.example.com\" target=\"_blank\">Link</a>";
 const myStr = '<a href="http://www.example.com" target="_blank">Link</a>'; 
+
+//Escape Sequences in Strings
+Code	Output
+\'	single quote
+\"	double quote
+\\	backslash
+\n	newline
+\t	tab
+\r	carriage return
+\b	backspace
+\f	form feed
+*You will need to use escape sequences to insert special characters correctly. You will also need to follow the spacing as it looks above, with no spaces between escape sequences or words.Ex below*/
+const myStr="FirstLine\n\t\\SecondLine\nThirdLine";
+//Double backslashes \\ not // as well as tight no spacing makes escaping doable 21mins
+
+//Concatenating Strings with Plus Operator
+'My name is Alan,' + ' I concatenate.'
+/*Note: Watch out for spaces. Concatenation does not add spaces between concatenated strings, so you'll need to add them yourself.*/
+const ourStr = "I come first. " + "I come second.";
+//The string (I come first. I come second.) would be displayed in the console.Ex below
+const myStr = "This is the start."+" This is the end."; // 
