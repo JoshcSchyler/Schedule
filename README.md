@@ -211,3 +211,22 @@ const lastName = "Lovelace";
 lastNameLength = lastName.length;
 /*For example, if we created a variable const firstName = "Ada", we could find out how long the string Ada is by using the firstName.length property.*/
 
+//Use Bracket Notation to Find the First Character in a String  (=[0];)
+/*Most modern programming languages, like JavaScript, don't start counting at 1 like humans do. They start at 0. This is referred to as Zero-based indexing.*/
+const firstName = "Charles";
+const firstLetter = firstName[0];
+//firstLetter would have a value of the string C. In this case firstName "Charles" if Indexed "0 for C" "1 for H" "2 for a"  "0123456" ex agin for below
+// Setup
+let firstLetterOfLastName = "";
+const lastName = "Lovelace";
+// Only change code below this line
+firstLetterOfLastName = lastName[0]; // Ctl
+
+//Understand String Immutability  (use myStr = "look not myStr[0] = "l" no index for string reassignment)
+// Setup
+let myStr = "Jello World";
+myStr[0] = "H"; // Ctl
+//actual below, false above 
+let myStr = "Jello World";
+myStr= "Hello World"; // Ctl
+
