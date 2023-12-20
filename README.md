@@ -230,3 +230,12 @@ myStr[0] = "H"; // Ctl
 let myStr = "Jello World";
 myStr= "Hello World"; // Ctl
 
+//Use Bracket Notation to Find the Nth Character in a String [Lastname 012345 etc] or [firstName 3] just keep Zero based indexing in mind
+const firstName = "Ada";
+const secondLetterOfFirstName = firstName[1];
+//secondLetterOfFirstName would have a value of the string d. Another ex. below
+const lastName = "Lovelace";
+const thirdLetterOfLastName = lastName[2];
+//Simply got the variable to be the letter it was preordained with plus the correctly numbered index bracket
+
+//Use Bracket Notation to Find the Last Character in a String firstName[firstName.length-1]
