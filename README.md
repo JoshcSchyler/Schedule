@@ -309,4 +309,29 @@ const myArray = [["John", 23], ["cat", 2]];
 myArray.push(["dog",3]);
 //myArray should now equal [["John", 23], ["cat", 2], ["dog", 3]].
 
-//Manipulate Arrays With pop Method
+//Manipulate Arrays With pop Method  (var removedFromMyArray = myArray.pop(); .pop() last element of array
+const myArray = [["John", 23], ["cat", 2]];
+var removedFromMyArray = myArray.pop();
+Passed:myArray should only contain [["John", 23]].
+Passed:You should use pop() on myArray.
+Passed:removedFromMyArray should only contain ["cat", 2].
+//.pop()function removes the last item from myArray assigning the popped off value to a new variable.
+
+//Manipulate Arrays With shift Method .shift() 1st element of array
+const ourArray = ["Stimpson", "J", ["cat"]];
+const removedFromOurArray = ourArray.shift();
+//removedFromOurArray would have a value of the string Stimpson, and ourArray would have ["J", ["cat"]].
+const myArray = [["John", 23], ["dog", 3]];
+const removedFromMyArray = myArray.shift();
+//myArray should now equal [["dog", 3]].:removedFromMyArray should contain ["John", 23]
+
+//Manipulate Arrays With unshift Method 
+const ourArray = ["Stimpson", "J", "cat"];
+ourArray.shift();
+ourArray.unshift("Happy");
+/*After the shift, ourArray would have the value ["J", "cat"]. After the unshift, ourArray would have the value ["Happy", "J", "cat"].*/
+//Add ["Paul", 35] to the beginning of the myArray variable using unshift().
+const myArray = [["John", 23], ["dog", 3]];
+myArray.shift();
+myArray.unshift(["Paul",35]);
+//myArray should now have [["Paul", 35], ["dog", 3]].
