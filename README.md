@@ -239,3 +239,34 @@ const thirdLetterOfLastName = lastName[2];
 //Simply got the variable to be the letter it was preordained with plus the correctly numbered index bracket
 
 //Use Bracket Notation to Find the Last Character in a String firstName[firstName.length-1]
+const firstName = "Ada";
+const lastLetter = firstName[firstName.length - 1];
+//lastLetter would have a value of the string a. casesensitive fyi
+
+//Use Bracket Notation to Find the Nth-to-Last Character in a String (firstName.length-3) >1
+const firstName = "Augusta";
+const thirdToLastLetter = firstName[firstName.length - 3];
+//thirdToLastLetter would have a value of the string s.
+
+//Word Blanks 25 mins (myVar + " ")
+const myNoun = "dog";
+const myAdjective = "big";
+const myVerb = "ran";
+const myAdverb = "quickly";
+const wordBlanks = "In the forest a " + myAdjective + " " + myNoun + " " + myVerb + " " + myAdverb + "."; 
+//spaces should be applied between quotes past the addition operator sequential to the variable 
+
+//Store Multiple Values in one Variable using JavaScript Arrays (= ["peanut butter", "jelly", "bread", 3]) several pieces of data is stored this way
+const myArray = ["Italy",1];
+
+//Nest one Array within Another Array
+const teams = [["Bulls", 23], ["White Sox", 45]];
+//This is also called a multi-dimensional array. ex below
+const myArray = [["Guardian", 1],["Rhulk",0]];
+
+//Access Array Data with Indexes (var myData = myArray[0];) keep the brackets tight with the previous letter no spaces 
+const myArray = [50, 60, 70];
+var myData = myArray[0];
+console.log(myArray[0]);
+
+//
