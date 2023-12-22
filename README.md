@@ -335,3 +335,19 @@ const myArray = [["John", 23], ["dog", 3]];
 myArray.shift();
 myArray.unshift(["Paul",35]);
 //myArray should now have [["Paul", 35], ["dog", 3]].
+
+//Shopping List (include quotes for strings, none for numbers)
+const myList = [["Milk",15],["Bouquet of flowers",3],["Fushigi ball",10],["Grapes",4],["Box of almonds",6]];
+
+//Write Reusable JavaScript with Functions 
+function functionName() {
+  console.log("Hello World");
+}
+functionName();
+//another ex below keep case sensitivity in mmind
+function reusableFunction () {
+  console.log("Hi World");
+}
+reusableFunction ();
+
+//Passing Values to Functions with Arguments
