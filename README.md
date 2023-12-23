@@ -350,6 +350,6 @@ function reusableFunction () {
 }
 reusableFunction ();
 
-//
+//Apply here
 
 //Passing Values to Functions with Arguments
