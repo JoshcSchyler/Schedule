@@ -350,6 +350,12 @@ function reusableFunction () {
 }
 reusableFunction ();
 
-//Apply here
-
-//Passing Values to Functions with Arguments
+//Passing Values to Functions with Arguments (functionWithArgs)
+function testFun(param1, param2) {
+  console.log(param1, param2);
+}//ex below
+function functionWithArgs (a,b) {
+  console.log(a+b);
+}
+functionWithArgs (1,2);
+functionWithArgs (7,9);
