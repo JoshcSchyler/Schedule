@@ -359,3 +359,15 @@ function functionWithArgs (a,b) {
 }
 functionWithArgs (1,2);
 functionWithArgs (7,9);
+
+//Return a Value from a Function with Return (return)
+//Create a function timesFive that accepts one argument, multiplies it by 5, and returns the new value.
+function timesFive(num) {
+  return num * 5;
+}
+const answer = timesFive(5)
+Passed:timesFive(5) should return 25
+Passed:timesFive(2) should return 10
+Passed:timesFive(0) should return 0
+
+//Global Scope and Functions
