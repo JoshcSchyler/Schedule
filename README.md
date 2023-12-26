@@ -371,4 +371,4 @@ Passed:timesFive(2) should return 10
 Passed:timesFive(0) should return 0
 
 //Global Scope and Functions
-/*Variables which are declared without the let or const keywords are automatically created in the global scope. This can create unintended consequences elsewhere in your code or when running a function again. You should always declare your variables with let or const.*/
+/*Variables which are declared without the let or const keywords are automatically created in the global scope. This can create unintended consequences elsewhere in your code or when running a function again. You should always declare your variables with let or const.Using let or const, declare a global variable named myGlobal outside of any function. Initialize it with a value of 10.*/
