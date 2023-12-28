@@ -393,4 +393,31 @@ function fun2() {
   }
   console.log(output);
 }
-//Local Scope and Functions
+//Local Scope and Functions (Visible only within the function )
+Passed:The code should not contain a global myVar variable.
+Passed:You should add a local myVar variable.
+function myLocalScope() {
+  // Only change code below this line
+var myVar = 10
+  console.log('inside myLocalScope', myVar);
+}
+myLocalScope(myVar);
+
+// Run and check the console
+// myVar is not defined outside of myLocalScope
+console.log('outside myLocalScope', myVar);
+
+//Global vs. Local Scope in Functions 
+Tests
+Passed:You should not change the value of the global outerWear.
+Passed:myOutfit should return the string sweater.
+Passed:You should not change the return statement.
+// Setup
+const outerWear = "T-Shirt";
+function myOutfit() {
+  // Only change code below this line
+const outerWear= "sweater"
+  // Only change code above this line
+  return outerWear;
+}
+myOutfit();
