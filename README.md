@@ -422,4 +422,9 @@ const outerWear= "sweater"
 }
 myOutfit();
 
-//
+//Understanding Undefined Value returned from a Function (peculiar difficulty)
+function addFive (){
+sum += 5;
+}
+
+//Assignment with a Returned Value
