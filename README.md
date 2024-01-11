@@ -1,4 +1,4 @@
-//# Schedule# J.S.C 2-4 week endeavor day 3 -4 5 567891012
+//# Schedule# J.S.C 2-4 week endeavor day 3 -4 5 567891012ODD
 var myName="Josh Claros";
 let camper ="Josh";
 //variables under let will only be used once unlike var
