@@ -1,4 +1,4 @@
-//# Schedule# J.S.C refer to tut doc for revised formats
+//# Schedule# J.S.C refer to tut doc for revised formatsa
 var myName="Josh Claros";
 let camper ="Josh";
 //variables under let will only be used once unlike var
